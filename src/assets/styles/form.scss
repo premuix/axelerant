@@ -1,0 +1,97 @@
+@import './theme.scss' ;
+
+
+
+.searchBar{
+   .input_item {
+        .wrapper input{
+        line-height: 27px;
+        }
+       /**** position: relative;
+        input {
+            border: 1px solid $b-light;
+            border-radius: 4px;
+            padding: 16px;
+            outline: none;
+        }
+        
+        .btn{
+            position: absolute;
+            right: -18px;
+            top: 11px;
+            padding: 6px 9px;
+            border: 0;
+            color: $orange-color;
+        }
+        ****/
+    }
+}
+
+.grid-2col{
+    display: grid;
+    grid-template-columns: 35% 60% ;
+    grid-gap: 30px;
+   
+   &__bookFrom{
+   
+    .form-item{
+        height: 120px;
+      .error{
+        font-size: 15px;
+        color: coral;
+      }  
+    }
+        input, select, textarea{
+            border: 1px solid #D5D5D5;
+            border-radius: 4px;
+            padding: 16px;
+            font-size: $ts-3;
+            outline: none;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            font-weight: 400;
+        }
+        input:focus, textarea:focus, select:focus {
+            border-color: $orange-color ;
+          }
+        
+        label{ 
+        margin-bottom: 5px ;
+        margin-top: 3px;
+        display: inline-flex;
+        font-size: $ts-2;           
+    }
+   }
+  }
+
+  @media screen and (max-width: $medium) {
+    .grid-2col {
+        grid: none;
+    }
+
+    .grid-2col__bookFrom{
+    label{
+        display: block;
+    }    
+    .w-100{
+        width: 92%;
+    }
+}
+}
+
+@media screen and (max-width: $large) {
+    .grid-2col__bookFrom{
+        label{
+            display: block;
+        }   
+        .w-100{
+            width: 92%;
+        }
+    }
+}
+
+
+  
+  
+  
+  

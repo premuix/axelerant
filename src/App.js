@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Dashboard from './pages/Dashboard';
+import Eventlisting from './pages/Eventlisting';
+import Help from './pages/Help';
+import Logout from './pages/Logout';
+import './assets/styles/base.js'; 
+import EventBooking from './pages/EventBooking'
+import { BrowserRouter as Router, Route, Routes, Navigate, } from 'react-router-dom';
+ 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Eventlisting  />} />
+          <Route exact path='Eventlisting' element={<Eventlisting />} />
+          <Route exact path='Dashboard' element={<Dashboard />} />
+          <Route exact path='Help' element={<Help />} />
+          <Route exact path='Logout' element={<Logout />} />
+          <Route exact path='EventBooking' element={<EventBooking />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Router>
   );
 }
 
