@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import {  FaCalendarPlus } from "react-icons/fa";
 import Header from "../components/Header";
@@ -30,7 +31,7 @@ const Eventlisting = () => {
                   <img className="desk-img w-100" src={users.image} alt="title" />
                   <div className="flex-3col__content"> 
                   
-                  <img className="mob-img" src={users.image} alt="title" />
+                  <img className="mob-img" src="images/img-01.jpg" alt="title" />
                     <h3 className="title pb-3"> {users.title}</h3>
                     <div className="info pb-3">
                       <div>{users.date}</div>
