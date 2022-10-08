@@ -28,8 +28,8 @@ const Eventlisting = () => {
                 
                   <div className="flex-3col__item" key={ eventsData }>
                   <img className="desk-img w-100" src={users.image} alt="title" />
-                  <div className="flex-3col__content">
-                  {users.id}
+                  <div className="flex-3col__content"> 
+                  
                   <img className="mob-img" src={users.image} alt="title" />
                     <h3 className="title pb-3"> {users.title}</h3>
                     <div className="info pb-3">
