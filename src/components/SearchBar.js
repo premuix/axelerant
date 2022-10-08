@@ -8,35 +8,35 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 const SearchBar = () => {
   const items = [
     {
-      id: 0,
+      id: 1,
       name: 'Understanding color theory',
     },
     {
-      id: 0,
+      id: 2,
       name: 'RGD Design Thinkers',
     },
     {
-      id: 0,
+      id: 3,
       name: 'What Design Can Do',
     },
     {
-      id: 0,
+      id: 4,
       name: 'Perth UX Camp',
     },
     {
-      id: 0,
+      id: 5,
       name: 'Sofia Design',
     },
     {
-      id: 0,
+      id: 6,
       name: 'Design Indaba',
     },
     {
-      id: 0,
+      id: 7,
       name: 'TYPO Berlin',
     },
     {
-      id: 0,
+      id: 8,
       name: 'AIGA Design Conference',
     },
   ];
