@@ -1,7 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[frontend development:  Custom SCSS / Data featch json / 70% backend   [Create React App](https://github.com/facebook/create-react-app). 
 
+## Deploy with Vercel Platform --- React App
+
+The easiest way to deploy your ReactJS app is to use the [Vercel Platform](https://vercel.com/)
+
+### `Demo link app` : [click to preview](https://axelerant.vercel.app/Eventlisting)
+
+### Figma UI : [https://www.figma.com/file/9SxbeBdLzeBHYG1tBX1EOz/FE-Examination?node-id=118%3A29](https://www.figma.com/file/9SxbeBdLzeBHYG1tBX1EOz/FE-Examination?node-id=118%3A29)
+
+#
+ 
 ## Available Scripts
 
 In the project directory, you can run:

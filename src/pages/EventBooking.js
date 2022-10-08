@@ -68,28 +68,28 @@ const EventBooking = () => {
                     </div>
                     {
                       showhide === '1' && (
-                        <div className="pb-4"><label >Name of attendee #1</label><textarea name="Attendee 1" className="w-100"></textarea></div>
+                        <div className="pb-4"><label >Name of attendee #1</label><textarea name="Attendee 1" className="w-100" placeholder="Attendee #1 ( Petter Martin )"></textarea></div>
                       )}
 
                     {
                       showhide === '2' && (
-                        <div className="pb-4"><label>Name of attendees #2</label><textarea name="Attendees 2" className="w-100"></textarea></div>
+                        <div className="pb-4"><label>Name of attendees #2</label><textarea name="Attendees 2" className="w-100" placeholder="Attendees #2 ( Shivam Bedi, Raman Basu )"></textarea></div>
                       )}
                     {
                       showhide === '3' && (
-                        <div className="pb-4"><label >Name of attendees #3</label><textarea name="Attendees 3" className="w-100"></textarea></div>
+                        <div className="pb-4"><label >Name of attendees #3</label><textarea name="Attendees 3" className="w-100" placeholder="Attendees #3 ( Shivam Bedi, Raman Basu, Ravi Chauhan )"></textarea></div>
                       )}
                     {
                       showhide === '4' && (
-                        <div className="pb-4"><label >Name of attendees #4</label><textarea name="Attendees 4" className="w-100"></textarea></div>
+                        <div className="pb-4"><label >Name of attendees #4</label><textarea name="Attendees 4" className="w-100" placeholder="Attendees #4 ( Shivam Bedi, Raman Basu, Ravi Chauhan, Gurav Desai )"></textarea></div>
                       )}
                     {
                       showhide === '5' && (
-                        <div className="pb-4"><label >Name of attendees #5</label><textarea name="Attendees 5" className="w-100"></textarea></div>
+                        <div className="pb-4"><label >Name of attendees #5</label><textarea name="Attendees 5" className="w-100" placeholder="Attendees #5 ( Shivam Bedi, Raman Basu, Ravi Chauhan, Gurav Desai, Preet Gill )"></textarea></div>
                       )}
                     {
                       showhide === '6' && (
-                        <div className="pb-4"><label >Name of attendees #6</label><textarea name="Attendees 6" className="w-100"></textarea></div>
+                        <div className="pb-4"><label >Name of attendees #6</label><textarea name="Attendees 6" className="w-100" placeholder="Attendees #6 ( Shivam Bedi, Raman Basu, Ravi Chauhan, Gurav Desai, Preet Gill, Prem Singh )"></textarea></div>
                       )}
  
                   </form>
